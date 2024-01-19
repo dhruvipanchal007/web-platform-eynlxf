@@ -9,15 +9,27 @@ body {
   background-color: white;
   font-family: 'DM Sans', sans-serif;
 }
-.wave{
+.border-radius{
+  border-radius: 100px;
+}
+.container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wave {
   position: relative;
 }
-nav{
+
+svg {
   position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .header {
-  background-color: #14B789;
+  background-color: transparent;
   display: flex;
   position: fixed;
   z-index: 1000;
@@ -55,7 +67,7 @@ nav{
   font-size: 16px;
   border-radius: 50%;
   margin-right: 16px;
-padding: 10px 12px;
+  padding: 10px 12px;
 }
 
 .number {
@@ -66,7 +78,62 @@ padding: 10px 12px;
   font-size: 18px;
   font-weight: 700;
 }
-.home{
+
+.home {
   background-color: #14B789;
-  padd
+  padding-top:250px;
+  height: 100%;
+  padding-bottom: 150px;
+}
+.avatar-img{
+  width: 90px;
+  height: 90px;
+
+}
+.d-flex{
+  display: flex;
+}
+.justify-content{
+  justify-content: center;
+}
+.align-items{
+  align-items: center;
+}
+.home-heading{
+  font-size: 44px;
+  padding: 8px 24px;
+  margin-left:16px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  
+}
+.bg-white{
+  background-color: #fff;
+}
+.home-para{
+  font-size: 38px;
+  color: #14B789;
+  display: block;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 24px;
+}
+.mb-4{
+  margin-bottom: 24px;
+}
+.btn{
+  background-color:#535da1 ;
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+.btn:hover{
+  background-color: #14B789;
+}
+.home-image{
+  max-width: 370px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: auto;
 }
