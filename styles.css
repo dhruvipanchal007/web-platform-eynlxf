@@ -207,11 +207,15 @@ svg {
   letter-spacing: 1px;
   margin: 0;
 }
-.profile-small-title span{
+.profile-small-title{
   color: #14B789;
   margin-right: 10px;
   padding: 13px 30px;
   font-weight: bold;
   border-right: 1px solid #e9eaeb;
-  display: inline-block;
+}
+.profile-body{
+  padding-left: 10px;
+  color: #717275;
+  font-size: 18px;
 }
