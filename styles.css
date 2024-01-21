@@ -219,3 +219,43 @@ svg {
   color: #717275;
   font-size: 18px;
 }
+.about-thumb{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.feature-number{
+  font-size: 62px;
+  line-height: normal;
+  margin: 0;
+
+}
+.pl-4{
+  padding-left: 48px!important;
+}
+.column-gap{
+  grid-column-gap:30px ;
+}
+.feature-text{
+  color: #14B789;
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+.border-bottom{
+  border-bottom: 1px solid #e9eaeb;
+}
+.border-left{
+  border-left: 1px solid #e9eaeb;
+}
+.pt-8{
+  padding-top: 8px;
+}
+.p-left-right{
+  padding:0 12px;
+}
+.pt-24{
+  padding-top: 24px!important;
+}
+.feature-section{
+  background-color: #f9f9f9;
+}
