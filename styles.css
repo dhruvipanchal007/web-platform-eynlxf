@@ -197,6 +197,7 @@ svg {
 }
 .information{
   border: 1px solid #e9eaeb;
+  border-radius: 20px;
 }
 .profile-title{
   padding: 15px 30px;
@@ -205,4 +206,12 @@ svg {
   font-weight: bold;
   letter-spacing: 1px;
   margin: 0;
+}
+.profile-small-title span{
+  color: #14B789;
+  margin-right: 10px;
+  padding: 13px 30px;
+  font-weight: bold;
+  border-right: 1px solid #e9eaeb;
+  display: inline-block;
 }
