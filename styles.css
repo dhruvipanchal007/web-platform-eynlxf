@@ -296,7 +296,7 @@ svg {
   background-color: #ffffff;
   border: 2px solid transparent;
   margin-bottom: 24px;
-  padding: 40px 40px 240px 40px;
+  padding: 40px;
   border-radius: 20px;
 }
 .card-top{
@@ -332,4 +332,15 @@ svg {
   display: block;
   font-size: 18px;
   background-color: transparent;
+}
+.card-icon{
+  font-size: 90px;
+}
+.icon{
+  border: 1px solid #e9eaeb;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  transform: rotate(45deg);
+
 }
