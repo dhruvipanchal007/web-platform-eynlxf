@@ -296,7 +296,7 @@ svg {
   background-color: #ffffff;
   border: 2px solid transparent;
   margin-bottom: 24px;
-  padding: 40px;
+  padding: 40px 40px 240px 40px;
   border-radius: 20px;
 }
 .card-top{
@@ -339,8 +339,33 @@ svg {
 .icon{
   border: 1px solid #e9eaeb;
   border-radius: 10px;
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 45%;
   transform: rotate(45deg);
+  margin-left: 15px;
+  margin-top: 15%;
 
+}
+.btn-discover{
+  margin-top: 48px;
+}
+.card:hover .icon{
+background-color: #14B789;
+
+}
+.card:hover .card-icon{
+  color: #fff;
+}
+.card:hover{
+  border: 2px solid #14B789;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+.grid-gap{
+  grid-column-gap: 30px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mt-25{
+  margin-top: -25px;
 }
