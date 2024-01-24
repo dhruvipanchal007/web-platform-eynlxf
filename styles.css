@@ -442,6 +442,10 @@ text-transform: uppercase;
 }
 .site-footer-1{
   padding: 60px 30px;
+  border-right: 2px solid #e9eaeb;
+}
+.site-footer-2{
+  padding: 60px 30px;
 }
 .border-radius-small{
   border-radius: 10px;
