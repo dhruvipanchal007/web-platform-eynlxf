@@ -433,3 +433,16 @@ background-color: #14B789;
 .flex-wrap{
   flex-wrap: wrap;
 }
+.items h1{
+
+}
+.down-title{
+font-size: 12px;
+text-transform: uppercase;
+}
+.site-footer-1{
+  padding: 60px 30px;
+}
+.border-radius-small{
+  border-radius: 10px;
+}
