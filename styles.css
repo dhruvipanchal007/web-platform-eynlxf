@@ -265,18 +265,13 @@ svg {
   max-width: 100px;
   height: 120px;
 }
-.services-top-content{
-  background-color: #14B789;
-  border-radius: 10px;
+.services{
   padding: 10px 30px;
 }
 .mb-6{
   margin-bottom: 48px;
 }
-.service-img{
-  width: 160px;
-  height: 160px;
-}
+
 .top-text{
   color: #fff;
   font-size: 48px;
@@ -341,7 +336,7 @@ svg {
   border-radius: 10px;
   width: 35%;
   height: 45%;
-  transform: rotate(-35deg) translateY(55px);
+  transform: rotate(-35deg);
   margin-left: 15px;
   margin-top: 15%;
 
@@ -369,16 +364,20 @@ background-color: #14B789;
 .mt-25{
   margin-top: -25px;
 }
-.project-img{
+.top-img{
   width: 160px;
   height: 160px;
   border-radius: 50%;
 }
-.project-top-content{
+.top-content{
   background-color: #14B789;
   border-radius: 10px;
+}
+.project{
   width: 60%;
   margin-left: auto;
+  padding: 10px 30px;
+
 }
 .project-card-img{
   max-width: 100%;
@@ -422,4 +421,15 @@ background-color: #14B789;
 }
 .project-card:hover{
   border: 2px solid #14B789;
+}
+.contacts{
+  background-color: #f9f9f9;
+}
+.contact{
+  width: 50%;
+  padding: 10px 30px;
+
+}
+.flex-wrap{
+  flex-wrap: wrap;
 }
