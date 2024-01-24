@@ -277,7 +277,7 @@ svg {
   width: 160px;
   height: 160px;
 }
-.service-top-text{
+.top-text{
   color: #fff;
   font-size: 48px;
   letter-spacing: 1px;
@@ -341,7 +341,7 @@ svg {
   border-radius: 10px;
   width: 35%;
   height: 45%;
-  transform: rotate(45deg);
+  transform: rotate(-35deg) translateY(55px);
   margin-left: 15px;
   margin-top: 15%;
 
@@ -368,4 +368,58 @@ background-color: #14B789;
 }
 .mt-25{
   margin-top: -25px;
+}
+.project-img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.project-top-content{
+  background-color: #14B789;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+}
+.project-card-img{
+  max-width: 100%;
+  height: auto;
+}
+.project-down-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr;
+  grid-column-gap: 25px;
+}
+.project-card{
+  background-color: #f9f9f9;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.project-card-heading{
+  font-size: 12px;
+  font-weight: 500;
+  color: #14B789;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.project-card-text{
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.project-card-img{
+  border-radius: 20px;
+  transform: rotate(10deg) translateY(80px);
+  transition: all ease 0.5s;
+}
+.project-card:hover .project-card-img{
+  transform: rotate(0) translateY(0);
+
+}
+.project-card:hover{
+  border: 2px solid #14B789;
 }
