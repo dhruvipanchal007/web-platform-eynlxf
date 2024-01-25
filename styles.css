@@ -584,29 +584,92 @@ svg {
   height: 58px;
   border-radius: 4px;
 }
-.form-check{
+
+.form-check {
   flex-direction: column;
   background-color: #ffffff;
   border: 2px solid #dee2e6;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   border-radius: 4px;
   margin-bottom: 24px;
 }
-.form-label{
+
+.form-label {
   margin: 0 12px;
   gap: 20px;
 
 }
-.form-check i{
+
+.form-check i {
   color: #14B789;
 }
-.form-check span{
+
+.form-check span {
   color: #717275;
 }
-.form-control{
-  margin: 0 12px;
+
+.form-control {
+  margin: 0 15px;
 }
-.form-control textarea{
+
+.form-control textarea {
   width: 100%;
+  border: 2px solid #dee2e6;
+  height: 165px;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.send-btn {
+  margin-left: auto;
+  display: block;
+  margin-right: 15px;
+  border: none;
+  color: #fff;
+  background-color: #14B789;
+  padding: 13px 35px;
+  font-size: 16px;
+  border-radius: 100px;
+  font-weight: 700;
+}
+input:hover{
+  border: 2px solid #14B789;
+}
+.footer{
+  border-top:1px solid #dee2e6 ;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer p{
+  font-size: 14px;
+  color: #717275;
+}
+.copyright-text{
+  padding-right: 25px;
+  margin-right: 20px;
+  border-right: 1px solid #dee2e6;
+}
+strong{
+  font-weight: 700;
+}
+input:focus{
+  border:2px solid #14B789;
+  outline: none;
+}
+textarea:focus{
+  border: 2px solid #14B789;
+
+}
+textarea:hover{
+  border: 2px solid #14B789;
+}
+.send-btn:hover{
+  background-color: #535da1;
+}
+.form-check:hover{
+  border: 2px solid #14B789;
 }
