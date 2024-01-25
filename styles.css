@@ -673,3 +673,13 @@ textarea:hover{
 .form-check:hover{
   border: 2px solid #14B789;
 }
+.img-fluid{
+  width: 100px;
+  height: auto;
+}
+.text-align{
+  text-align: center;
+}
+.justify-content-space{
+  justify-content: space-around;
+}
